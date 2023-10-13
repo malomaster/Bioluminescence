@@ -1,0 +1,13 @@
+Мод Bioluminescence (1.152.1) вызвал неустранимую ошибку.
+Пожалуйста, сообщите об этой ошибке автору мода.
+
+Error while running event Bioluminescence::on_tick (ID 0)
+__DragonIndustries__/color.lua:2: Null color
+stack traceback:
+	[C]: in function 'error'
+	__DragonIndustries__/color.lua:2: in function 'convertColor'
+	__Bioluminescence__/functions.lua:106: in function 'createTreeLights'
+	__Bioluminescence__/functions.lua:118: in function 'createTreeLightSimple'
+	__Bioluminescence__/functions.lua:176: in function 'recreateEntityLight'
+	__Bioluminescence__/functions.lua:199: in function 'reloadLightsInArea'
+	__Bioluminescence__/control.lua:101: in function <__Bioluminescence__/control.lua:64>
